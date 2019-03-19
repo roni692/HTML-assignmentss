@@ -1,0 +1,24 @@
+<html>
+<head>
+<script language="JavaScript">
+function dispMsg()
+{
+	num1 = parseInt(prompt("enter first number","0"));
+	num2 = parseInt(prompt("enter second number","0"));
+	
+	alert("Sum is \n"+(num1+num2));
+}
+
+function closeWin()
+{
+	res=confirm("do you want to close the windows");
+	if(res==true)
+	windows.close();
+	
+}
+</script>
+<body>
+	<input type="button" value="Add" name="but1" onClick="dispMsg()">
+	<input type="button" value="Close" name="but1" onClick="closeWin()">
+</body>
+</head>

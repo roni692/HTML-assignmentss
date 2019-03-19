@@ -1,0 +1,42 @@
+<html>
+<body>
+	<input id = "Character" type="text">
+	<button onclick="fun()">Check vowel</button>
+	<p id="intro"></p>
+	<script language="JavaScript" >
+	
+	function fun()
+	{
+		var chrctr = document.getElementById("Character").value;
+		var text;
+	
+	switch(chrctr)
+	{
+		case "a":
+		text="a is vowel";
+		break;
+		
+		case "e":
+		text="e is vowel";
+		break;
+    
+		case "i":
+		text="i is vowel";
+		break;
+	
+		case "o":
+		text="o is vowel";
+		break;
+		
+		case "u":
+		text="u is vowel";
+		break;
+		
+		default:
+		text=" is not vowel";
+	}
+	document.getElementById("intro").innerHTML = text;
+}
+	</script>
+</body>
+</html>

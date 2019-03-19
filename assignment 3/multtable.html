@@ -1,0 +1,20 @@
+<html>
+<body>
+<!--multtbale 1 and 2 togather-->
+<script type='text/javascript'>
+
+var num = prompt("Enter Number", "0") 
+var num = parseInt(num); 
+var i = 0;
+ 
+document.write('<table border="1" cellspacing="3" cellpadding="1">');
+document.write("<tr><th>X</th><th>Y</th><th colspan=3>X*Y</th></tr>");
+for(i=1;i<=10;i++)
+ {
+    document.write("<tr row span =5><td colspan=5>" + num + " x " + i + " = " + num*i + "</td></tr>");
+}
+ 
+document.write("</table>");
+</script>
+</body>
+</html>

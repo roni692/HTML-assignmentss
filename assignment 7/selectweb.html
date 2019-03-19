@@ -1,0 +1,27 @@
+<html>
+<head>
+<script language="JavaScript">
+function goToPage(dropdownlist)
+{
+	var url = dropdownlist.options(dropdown.selectedIndex).value;
+	if(url!="")
+	{
+			window.open(url);
+	}
+}
+</script>
+</head>
+<body>
+	<h1>QUESTIONS</h1>
+	<h3>What is the minimum balance for a Salary Account in Infy Bank?</h3>
+	<form name ="dropdown">
+	<select name="webs" onchange="goToPage(this.option(this.selectedIndex).value)">
+	<option value="http://www.google.com/">sparsh</option >
+	<option value="http://www.kshop.com/">kshop</option>
+	<option value="http://172.21.20.155/">http://172.21.20.155/</option>
+	<option value="http://enr.ad.Imcs.com/">http://enr.ad.Imcs.com/</option>
+	</select>
+	<input type=button value="Go" onclick="goToPage(document.dropdown.list)">
+	</form>
+</body>
+</html>

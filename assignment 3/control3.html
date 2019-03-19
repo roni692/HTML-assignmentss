@@ -1,0 +1,59 @@
+<html>
+<head>
+
+
+
+<script language="JavaScript" >
+
+document.write("<h1>Result for Genric Comprehensive Exam</h1>");
+var num1 = prompt("Enter marks for SecA", "0") 
+var num1 = parseInt(num1);
+inum1 = num1*100/50; 
+if(inum1<50)
+{
+	document.write("<h1>Student failed in Sec A</h1>");
+}
+else
+{
+	document.write("<h1>Student passedin Sec A</h1>");
+}
+var num2 = prompt("Enter marks for sec B", "0") 
+var num2 = parseInt(num2); 
+inum2 = num2*100/30;
+if(inum2<50)
+{
+	document.write("<h1>Student failed in Sec B</h1>");
+}
+else
+{
+	document.write("<h1>Student passed in Sec B</h1>");
+}
+
+var num3 = prompt("Enter marks for Sec C", "0") 
+var num3 = parseInt(num3); 
+inum3 = num2*100/20;
+if(inum3<50)
+{
+	document.write("<h1>Student failed in Sec C</h1>");
+}
+else
+{
+	document.write("<h1>Student passed in Sec C</h1>");
+}
+
+var total= (inum1 + inum2 + inum3) / 3;
+		
+		if(total >= 65)
+		{
+			document.write("<h1>Over all marks suggests Student passed the generic exam</h1>");
+		}
+		else
+		{
+			document.write("<h1>Over all marks suggest student failed the genric exam</h1>");
+		}
+</script>
+		
+</head>
+<body>
+</body>
+</html>

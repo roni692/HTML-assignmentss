@@ -1,0 +1,22 @@
+<html>
+<head>
+<script language="JavaScript">
+function dispisp()
+{
+		ind = document.f1.webs.selectionIndex;
+		alert("the value is \n"+document.f1.webs.option[ind].value);
+		alert("the text is \n"+document.f1.webs.option[ind].text);
+}
+</script>
+</head>
+<body>
+	<h1>INFY Bank</h1>
+	<h3>Customer Registration Form</h3>
+	<form name ="f1">
+	Customer Name(*) <input type="text"minlength="3"required ><br>
+	Date of Birth(*) <input type="text"required><br>
+	Email(*) <input type="text"required><br>
+	(*)Mandatory <input type="button" value="Submit"><br>
+	</form>
+</body>
+</html>

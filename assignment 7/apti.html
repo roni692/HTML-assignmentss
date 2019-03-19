@@ -1,0 +1,24 @@
+<html>
+<head>
+<script language="JavaScript">
+function funDisp()
+{
+	document.write(rad1[0]);
+		alert("textbox val is "+document.frm1.rad1.value);
+		alert("textbox val is "+document.frm1.rad1.value);
+		alert("textbox val is "+document.frm1.rad1.value);
+}
+</script>
+</head>
+<body>
+	<h1>QUESTIONS</h1>
+	<h3>What is the minimum balance for a Salary Account in Infy Bank?</h3>
+	<form>
+	1000.00<input type="radio" name="rad1"value="1000.00">
+	0.00<input type="radio" name="rad1" value="0.00">
+	100.00<input type="radio" name="rad1" value="100.00">
+	NOT ANSWERED<input type="radio" name="rad1" value="100.00" Checked><br>
+	<input type="Button" value="Submit" onclick=funDisp()><br>
+	</form>
+</body>
+</html>

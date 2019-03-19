@@ -1,0 +1,24 @@
+<html>
+<head>
+<script language="JavaScript">
+function dispisp()
+{
+		ind = document.f1.webs.selectionIndex;
+		alert("the value is \n"+document.f1.webs.option[ind].value);
+		alert("the text is \n"+document.f1.webs.option[ind].text);
+}
+</script>
+</head>
+<body>
+	<h1>QUESTIONS</h1>
+	<h3>What is the minimum balance for a Salary Account in Infy Bank?</h3>
+	<form name ="f1">
+	<select name="webs" onchange="dispisp()">
+	<option value="1">http://sparsh
+	<option value="2">http://kshop
+	<option value="3">http://172.21.20.155/
+	<option value="4">http://enr.ad.Imcs.com/
+	</select>
+	</form>
+</body>
+</html>
